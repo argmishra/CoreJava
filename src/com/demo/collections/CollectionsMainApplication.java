@@ -1,17 +1,22 @@
 package com.demo.collections;
 
-import com.demo.collections.implementation.list.ArrayListDemo;
-import com.demo.collections.implementation.list.LinkedListDemo;
-import com.demo.collections.implementation.other.IteratingDemo;
+import com.demo.collections.implementation.set.EnumSetDemo;
 
 public class CollectionsMainApplication {
 
 	public static void main(String[] args) {
-		new ArrayListDemo().arrayListDemo();
-		new LinkedListDemo().linkedListDemo();
-		new IteratingDemo().primitiveIterationDemo();
-		new IteratingDemo().objectIterationDemo();
-
+		new EnumSetDemo().enumSetDemo();
+		// new StackDemo().stackListDemo();
+		// new VectorDemo().vectorListDemo();
+		// new ArrayDequeDemo().arrayDeqeueDemo();
+		// new PriorityQueueDemo().priorityQueueDemo();
+		// new TreeSetDemo().treehSetDemo();
+		// new LinkedHashSetDemo().linkedhashSetDemo();
+		// new HashSetDemo().hashSetDemo();
+		// new ArrayListDemo().arrayListDemo();
+		// new LinkedListDemo().linkedListDemo();
+		// new IteratingDemo().primitiveIterationDemo();
+		// new IteratingDemo().objectIterationDemo();
 
 	}
 

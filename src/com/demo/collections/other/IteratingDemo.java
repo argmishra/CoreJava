@@ -1,4 +1,4 @@
-package com.demo.collections.implementation.other;
+package com.demo.collections.other;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,7 +15,7 @@ public class IteratingDemo {
 		arrayList.add("One");
 		arrayList.add("Two");
 		arrayList.add("Three");
-		
+
 		userList = new ArrayList<User>();
 		userList.add(new User("Anurag"));
 		userList.add(new User("Sonu"));
@@ -51,12 +51,11 @@ public class IteratingDemo {
 
 		System.out.println("Using forEachRemaining");
 		itr = arrayList.iterator();
-		itr.forEachRemaining(element ->
-		{
+		itr.forEachRemaining(element -> {
 			System.out.println(element);
 		});
 	}
-	
+
 	public void objectIterationDemo() {
 		System.out.println("Using Iterator");
 		Iterator<User> itr = userList.iterator();
@@ -87,8 +86,7 @@ public class IteratingDemo {
 
 		System.out.println("Using forEachRemaining");
 		itr = userList.iterator();
-		itr.forEachRemaining(user ->
-		{
+		itr.forEachRemaining(user -> {
 			System.out.println(user.getName());
 		});
 	}

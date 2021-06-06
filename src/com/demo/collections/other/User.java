@@ -1,8 +1,8 @@
-package com.demo.collections.implementation.other;
+package com.demo.collections.other;
 
 public class User {
 	private String name;
-	
+
 	public String getName() {
 		return name;
 	}

@@ -1,4 +1,4 @@
-package com.demo.collections.implementation.set;
+package com.demo.collections.set;
 
 import java.util.Set;
 import java.util.TreeSet;

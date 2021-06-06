@@ -1,4 +1,4 @@
-package com.demo.collections.implementation.set;
+package com.demo.collections.set;
 
 public enum Days {
 	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY

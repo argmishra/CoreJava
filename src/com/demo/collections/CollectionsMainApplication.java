@@ -1,11 +1,9 @@
 package com.demo.collections;
 
-import com.demo.collections.implementation.set.EnumSetDemo;
-
 public class CollectionsMainApplication {
 
 	public static void main(String[] args) {
-		new EnumSetDemo().enumSetDemo();
+		// new EnumSetDemo().enumSetDemo();
 		// new StackDemo().stackListDemo();
 		// new VectorDemo().vectorListDemo();
 		// new ArrayDequeDemo().arrayDeqeueDemo();

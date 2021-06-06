@@ -1,4 +1,4 @@
-package com.demo.collections.implementation.list;
+package com.demo.collections.list;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.demo.collections.list;
+package com.demo.collection.list;
 
 import java.util.Stack;
 

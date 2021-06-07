@@ -1,4 +1,4 @@
-package com.demo.collections.queue;
+package com.demo.collection.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

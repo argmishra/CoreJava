@@ -1,4 +1,4 @@
-package com.demo.collections.set;
+package com.demo.collection.set;
 
 import java.util.EnumSet;
 import java.util.Iterator;

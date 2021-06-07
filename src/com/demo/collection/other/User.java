@@ -1,4 +1,4 @@
-package com.demo.collections.other;
+package com.demo.collection.other;
 
 public class User {
 	private String name;

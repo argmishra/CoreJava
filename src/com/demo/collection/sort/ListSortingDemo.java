@@ -27,7 +27,7 @@ public class ListSortingDemo {
 
 	public void primitiveSortingDemo() {
 		System.out.println("Using Collections");
-		Collections.sort(list);
+		list.sort(Comparator.reverseOrder());
 		System.out.println("Sorted List " + list);
 	}
 

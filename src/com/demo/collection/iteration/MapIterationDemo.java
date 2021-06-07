@@ -47,19 +47,19 @@ public class MapIterationDemo {
 		Iterator<Map.Entry<String, User>> itr = userMap.entrySet().iterator();
 		while (itr.hasNext()) {
 			Map.Entry<String, User> entry = itr.next();
-			System.out.println(entry.getKey() + ":" + ((User) entry.getValue()).getName());
+			System.out.println(entry.getKey() + ":" + ((User) entry.getValue()));
 		}
 
 		System.out.println("Using enhanced for loop");
 		for (Map.Entry<String, User> m : userMap.entrySet()) {
-			System.out.println(m.getKey() + ":" + ((User) m.getValue()).getName());
+			System.out.println(m.getKey() + ":" + ((User) m.getValue()));
 		}
 
 		System.out.println("Using streaming");
-		userMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() + ":" + e.getValue().getName()));
+		userMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() + ":" + e.getValue()));
 
 		System.out.println("Using lambdas");
-		userMap.forEach((k, v) -> System.out.println((k + ":" + v.getName())));
+		userMap.forEach((k, v) -> System.out.println((k + ":" + v)));
 
 	}
 

@@ -60,34 +60,34 @@ public class ListIterationDemo {
 		System.out.println("Using Iterator");
 		Iterator<User> itr = userList.iterator();
 		while (itr.hasNext()) {
-			System.out.println(itr.next().getName());
+			System.out.println(itr.next());
 		}
 
 		System.out.println("Using enhanced for loop");
 		for (User user : userList) {
-			System.out.println(user.getName());
+			System.out.println(user);
 		}
 
 		System.out.println("Using For loop");
 		for (int i = 0; i < userList.size(); i++) {
-			System.out.println(userList.get(i).getName());
+			System.out.println(userList.get(i));
 		}
 
 		System.out.println("Using ListIterator");
 		ListIterator<User> list1 = userList.listIterator(userList.size());
 		while (list1.hasPrevious()) {
-			System.out.println(list1.previous().getName());
+			System.out.println(list1.previous());
 		}
 
 		System.out.println("Using forEach");
 		userList.forEach(user -> {
-			System.out.println(user.getName());
+			System.out.println(user);
 		});
 
 		System.out.println("Using forEachRemaining");
 		itr = userList.iterator();
 		itr.forEachRemaining(user -> {
-			System.out.println(user.getName());
+			System.out.println(user);
 		});
 	}
 }

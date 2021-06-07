@@ -18,11 +18,8 @@ public class User implements Comparable<User> {
 		return age;
 	}
 
-	public User(String name, int age, int id) {
-		super();
-		this.name = name;
+	public void setAge(int age) {
 		this.age = age;
-		this.id = id;
 	}
 
 	public int getId() {
@@ -33,8 +30,11 @@ public class User implements Comparable<User> {
 		this.id = id;
 	}
 
-	public void setAge(int age) {
+	public User(String name, int age, int id) {
+		super();
+		this.name = name;
 		this.age = age;
+		this.id = id;
 	}
 
 	public User(String name) {

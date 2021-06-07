@@ -25,8 +25,8 @@ public class CollectionMainApplication {
 		// new HashSetDemo().hashSetDemo();
 		// new ArrayListDemo().arrayListDemo();
 		// new LinkedListDemo().linkedListDemo();
-		// new IteratingDemo().primitiveIterationDemo();
-		// new IteratingDemo().objectIterationDemo();
+		// new ListIterationDemo().primitiveIterationDemo();
+		// new ListIterationDemo().objectIterationDemo();
 
 	}
 

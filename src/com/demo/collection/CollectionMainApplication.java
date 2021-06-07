@@ -4,6 +4,10 @@ public class CollectionMainApplication {
 
 	public static void main(String[] args) {
 
+		// new MapSortingDemo().primitiveSortingDemo();
+		// new MapSortingDemo().objectSortingDemo();
+		// new ListSortingDemo().primitiveSortingDemo();
+		// new ListSortingDemo().objectSortingDemo();
 		// new EnumMapDemo().enumMapDemo();
 		// new HashTableDemo().hashTableDemo();
 		// new TreeMapDemo().treeMapDemo();

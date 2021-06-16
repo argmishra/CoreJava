@@ -5,12 +5,15 @@ import com.demo.collection.iteration.MapIterationDemo;
 import com.demo.collection.list.ArrayListDemo;
 import com.demo.collection.list.LinkedListDemo;
 import com.demo.collection.list.StackDemo;
+import com.demo.collection.list.UnmodifiableListDemo;
 import com.demo.collection.list.VectorDemo;
+import com.demo.collection.map.ConcurrentHashMapDemo;
 import com.demo.collection.map.EnumMapDemo;
 import com.demo.collection.map.HashMapDemo;
 import com.demo.collection.map.HashTableDemo;
 import com.demo.collection.map.LinkedHashMapDemo;
 import com.demo.collection.map.TreeMapDemo;
+import com.demo.collection.map.UnmodifiableMapDemo;
 import com.demo.collection.queue.ArrayDequeDemo;
 import com.demo.collection.queue.PriorityQueueDemo;
 import com.demo.collection.set.EnumSetDemo;
@@ -23,6 +26,11 @@ import com.demo.collection.sort.MapSortingDemo;
 public class CollectionMainApplication {
 
 	public static void main(String[] args) {
+		new UnmodifiableMapDemo().unmodifiableMapDemo();
+
+	}
+
+	public static void demoAll() {
 		new MapSortingDemo().primitiveSortingDemo();
 		new MapSortingDemo().objectSortingDemo();
 		new ListSortingDemo().primitiveSortingDemo();
@@ -46,6 +54,10 @@ public class CollectionMainApplication {
 		new LinkedListDemo().linkedListDemo();
 		new ListIterationDemo().primitiveIterationDemo();
 		new ListIterationDemo().objectIterationDemo();
+		new ConcurrentHashMapDemo().concurrentHashMapDemo();
+		new UnmodifiableListDemo().unmodifiableListDemo();
+		new UnmodifiableMapDemo().unmodifiableMapDemo();
+
 	}
 
 }

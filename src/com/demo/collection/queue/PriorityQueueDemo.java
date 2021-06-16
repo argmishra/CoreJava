@@ -4,6 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 // extends AbstractQueue<E> implements java.io.Serializable
+// PriorityBlockingQueue and ArrayBlockingQueue 
 public class PriorityQueueDemo {
 
 	public Queue<String> priorityQueue = null;

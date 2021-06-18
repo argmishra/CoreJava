@@ -3,7 +3,7 @@ package com.demo.annotation;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
-public class AnnotationDemoApplication {
+public class AnnotationMainApplication {
 
 	public static void main(String[] args) throws Exception, Exception {
 		singleAnnotation();

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Stream;
 
-public class ArrayDemoApplication {
+public class ArrayMainApplication {
 
 	public static void main(String[] args) {
 		Integer[] intArray = primitiveArray();
